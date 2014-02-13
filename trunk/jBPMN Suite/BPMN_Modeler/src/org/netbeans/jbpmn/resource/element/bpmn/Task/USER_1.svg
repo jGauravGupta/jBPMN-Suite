@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:html="http://www.w3.org/1999/xhtml" id="svgroot" viewBox="0 0 1024 768">
+
+  
+  <linearGradient id="lg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0.4" stop-color="white"/>
+    <stop offset="1" stop-color="gray"/>
+  </linearGradient>
+  <linearGradient id="lg2" x1="0" y1="1" x2="0" y2="0">
+    <stop offset="0" stop-color="black"/>
+    <stop offset="0.25" stop-color="darkgray"/>
+    <stop offset="0.6" stop-color="gray"/>
+    <stop offset="1" stop-color="#222"/>
+  </linearGradient>
+  <filter id="ds">
+    <feGaussianBlur stdDeviation="2" in="SourceAlpha"/>
+    <feOffset dy="2"/>
+    <feComposite in="SourceGraphic"/>
+  </filter>
+  <filter id="tiltshift" x="0" y="0" width="1" height="1" primitiveUnits="objectBoundingBox">
+    <feColorMatrix id="saturate1" type="saturate" values="2" result="saturate"/>
+    <feGaussianBlur id="bottomblur" stdDeviation="4" y="0.6" height="0.4" in="saturate" result="bottomblur"/>
+    <feGaussianBlur id="topblur" stdDeviation="4" height="0.4" in="saturate" result="topblur"/>
+    <feComposite operator="atop" in2="saturate" in="topblur" k2="1" k3="1"/>
+    <feComposite operator="atop" in="bottomblur" k2="1" k3="1" result="multiblur"/>
+  </filter>
+  <filter id="b2" filterUnits="userSpaceOnUse">
+    <feGaussianBlur stdDeviation="10 0.1"/>
+  </filter>
+  <filter id="b5" filterUnits="userSpaceOnUse">
+    <feGaussianBlur stdDeviation="50 10"/>
+  </filter>
+  <filter id="b10" filterUnits="userSpaceOnUse">
+    <feGaussianBlur stdDeviation="100 20"/>
+  </filter>
+  <g id="bg" buffered-rendering="static">
+  <circle cx="152.24210691452026" cy="463.6903563737869" r="73.69567003190477" fill-opacity="0.1" fill="hsl(223.84772321650507,500.6037634848617017%,60%)" filter="url(#b2)"/><circle cx="497.71480083465576" cy="351.78045827150345" r="7.048874475795074" fill-opacity="0.011013866368429803" fill="hsl(240.43357004279886,500.4580474717076868%,60%)" filter="url(#b2)"/><circle cx="492.0739543437958" cy="745.8385507464409" r="72.47735759581136" fill-opacity="0.1" fill="hsl(390.07128646830927,500.9711439462844282%,60%)" filter="url(#b2)"/><circle cx="584.1115736961365" cy="640.3360673189163" r="53.25720926577408" fill-opacity="0.083214389477772" fill="hsl(363.68100687621325,500.8337709209881723%,60%)" filter="url(#b2)"/><circle cx="67.1307430267334" cy="278.5591574907303" r="91.43881606167284" fill-opacity="0.1" fill="hsl(132.69030958475577,500.36270723631605506%,60%)" filter="url(#b2)"/><circle cx="945.5116004943848" cy="593.9388218522072" r="96.33413033476678" fill-opacity="0.1" fill="hsl(433.5960124361807,500.7733578409533948%,60%)" filter="url(#b2)"/><circle cx="164.76434445381165" cy="496.45905339717865" r="72.99853126565785" fill-opacity="0.1" fill="hsl(239.81588177324852,500.6464310591109097%,60%)" filter="url(#b2)"/><circle cx="821.3634579181671" cy="404.909590780735" r="62.01385654245456" fill-opacity="0.09689665084758525" fill="hsl(345.5535255760366,500.5272260296624154%,60%)" filter="url(#b2)"/><circle cx="232.62578678131104" cy="605.6666831374168" r="71.32631195420255" fill-opacity="0.1" fill="hsl(295.45074208222127,500.7886284936685115%,60%)" filter="url(#b2)"/><circle cx="880.9877004623413" cy="35.81604266166687" r="101.46605170997218" fill-opacity="0.1" fill="hsl(310.1769298072751,500.04663547221571207%,60%)" filter="url(#b2)"/><circle cx="929.1467869281769" cy="27.234376966953278" r="109.78035372919142" fill-opacity="0.1" fill="hsl(326.902531904448,500.03546142834238708%,60%)" filter="url(#b2)"/><circle cx="769.7544775009155" cy="522.6514323949814" r="58.536002725485126" fill-opacity="0.09146250425857051" fill="hsl(365.041036008286,500.6805357192642987%,60%)" filter="url(#b2)"/><circle cx="426.9628264904022" cy="347.8898992538452" r="18.47729444956581" fill-opacity="0.02887077257744658" fill="hsl(221.63974612639208,500.4529816396534443%,60%)" filter="url(#b2)"/><circle cx="103.26494598388672" cy="563.5487823486328" r="89.28652969500646" fill-opacity="0.1" fill="hsl(266.6464640160433,500.733787477016449%,60%)" filter="url(#b2)"/><circle cx="1005.7922866344452" cy="551.9299752116203" r="104.3132396034654" fill-opacity="0.1" fill="hsl(438.1400739048687,500.7186588218901306%,60%)" filter="url(#b2)"/><circle cx="792.7093410491943" cy="695.5316682457924" r="83.86887729599803" fill-opacity="0.1" fill="hsl(428.90819862205007,500.9056401930283755%,60%)" filter="url(#b2)"/><circle cx="987.6045536994934" cy="58.510770320892334" r="115.26368554523894" fill-opacity="0.1" fill="hsl(348.2863158835279,500.07618589885532856%,60%)" filter="url(#b2)"/><circle cx="614.3655018806458" cy="744.1745274066925" r="74.88775231449019" fill-opacity="0.1" fill="hsl(410.2857445964511,500.9689772492274642%,60%)" filter="url(#b2)"/><circle cx="678.1504340171814" cy="736.2088395953178" r="77.8863360065623" fill-opacity="0.1" fill="hsl(419.4436348214685,500.9586052598897368%,60%)" filter="url(#b2)"/><circle cx="723.6854593753815" cy="58.22717106342316" r="77.70165243656184" fill-opacity="0.1" fill="hsl(255.8805163910673,500.07581662898883224%,60%)" filter="url(#b2)"/><circle cx="642.2371425628662" cy="728.2751297950745" r="73.61713884642779" fill-opacity="0.1" fill="hsl(409.29102200268227,500.9482749085873365%,60%)" filter="url(#b2)"/><circle cx="313.1977171897888" cy="208.73190289735794" r="53.00613304610415" fill-opacity="0.08282208288453774" fill="hsl(147.29957885078252,500.2717863318976015%,60%)" filter="url(#b2)"/><circle cx="419.0922863483429" cy="176.67809575796127" r="45.43752424352515" fill-opacity="0.07099613163050804" fill="hsl(169.0178332138795,500.23004960385151207%,60%)" filter="url(#b2)"/><circle cx="250.18405771255493" cy="526.4757809042931" r="59.6144062388114" fill-opacity="0.09314750974814281" fill="hsl(261.9909055338728,500.6855153397191316%,60%)" filter="url(#b2)"/><circle cx="390.3097836971283" cy="470.3500469326973" r="29.842814444431163" fill-opacity="0.04662939756942369" fill="hsl(259.6897795312067,500.6124349569436163%,60%)" filter="url(#b2)"/><circle cx="563.3387973308563" cy="743.2315619587898" r="72.57630115092132" fill-opacity="0.1" fill="hsl(400.74776930244684,500.9677494296338409%,60%)" filter="url(#b2)"/><circle cx="136.49793648719788" cy="504.400996863842" r="78.86652008252409" fill-opacity="0.1" fill="hsl(241.25861203854353,500.6567721313331276%,60%)" filter="url(#b2)"/><circle cx="475.46629643440247" cy="42.265087723731995" r="68.73644208560333" fill-opacity="0.1" fill="hsl(168.32609491461565,500.0550326663069427%,60%)" filter="url(#b2)"/><circle cx="225.06427264213562" cy="274.6927717924118" r="61.410156089302504" fill-opacity="0.09595336888953516" fill="hsl(151.13022879195734,500.3576728799380362%,60%)" filter="url(#b2)"/><circle cx="906.0027227401733" cy="641.6841863393784" r="94.15716338464267" fill-opacity="0.1" fill="hsl(438.0948684972418,500.8355262842960656%,60%)" filter="url(#b2)"/><circle cx="580.0579059123993" cy="732.0684814453125" r="70.93195227338012" fill-opacity="0.1" fill="hsl(399.1777260959622,500.953214168548584%,60%)" filter="url(#b2)"/><circle cx="928.451297044754" cy="355.0677371621132" r="83.49101955136936" fill-opacity="0.1" fill="hsl(366.3935332237421,500.4623277827631682%,60%)" filter="url(#b2)"/><circle cx="827.2868840694427" cy="490.06937742233276" r="66.53015319176095" fill-opacity="0.1" fill="hsl(370.6224019471557,500.6381111685186625%,60%)" filter="url(#b2)"/><circle cx="24.091017246246338" cy="721.3891984820366" r="118.64006856103106" fill-opacity="0.1" fill="hsl(338.25723573496225,500.9393088521901518%,60%)" filter="url(#b2)"/><circle cx="907.466489315033" cy="552.3410105109215" r="85.96102372377734" fill-opacity="0.1" fill="hsl(410.87127964265943,500.7191940241027623%,60%)" filter="url(#b2)"/><circle cx="279.49608063697815" cy="281.56841683387756" r="50.813502831072306" fill-opacity="0.07939609817355048" fill="hsl(164.54539308688712,500.36662554275244474%,60%)" filter="url(#b2)"/><circle cx="654.239006280899" cy="199.57691645622253" r="46.58060053351513" fill-opacity="0.0727821883336174" fill="hsl(248.30350598753623,500.2598657766357064%,60%)" filter="url(#b2)"/><circle cx="234.17155742645264" cy="583.6499152779579" r="68.42477100388095" fill-opacity="0.1" fill="hsl(285.7040489058918,500.759960827184841%,60%)" filter="url(#b2)"/><circle cx="734.7648277282715" cy="114.3200095295906" r="69.95754876578413" fill-opacity="0.1" fill="hsl(263.8155650626032,500.14885417907498777%,60%)" filter="url(#b2)"/><circle cx="939.6658933162689" cy="654.226231098175" r="101.1771381843797" fill-opacity="0.1" fill="hsl(450.7522292939345,500.8518570717424154%,60%)" filter="url(#b2)"/><circle cx="510.9026532173157" cy="763.3670947551727" r="75.87373636587083" fill-opacity="0.1" fill="hsl(400.3777922511677,500.9939675712957978%,60%)" filter="url(#b2)"/><circle cx="784.1322224140167" cy="464.75609385967255" r="56.77235002057396" fill-opacity="0.0887067969071468" fill="hsl(351.362085619793,500.605151163879782%,60%)" filter="url(#b2)"/><circle cx="841.6538391113281" cy="757.8006343245506" r="99.67919900606623" fill-opacity="0.1" fill="hsl(462.3135171171514,500.9867195759434253%,60%)" filter="url(#b2)"/><circle cx="495.80376648902893" cy="134.92794460058212" r="49.91961809182141" fill-opacity="0.07799940326847096" fill="hsl(185.4260733308401,500.1756874278653413%,60%)" filter="url(#b2)"/><circle cx="978.1241393089294" cy="355.63687884807587" r="93.39725475365302" fill-opacity="0.1" fill="hsl(382.14955009034657,500.46306885266676545%,60%)" filter="url(#b2)"/><circle cx="734.2765855789185" cy="431.59908825159073" r="45.46319553177272" fill-opacity="0.07103624301839487" fill="hsl(327.97645852704426,500.5619779794942588%,60%)" filter="url(#b2)"/><circle cx="754.5198893547058" cy="332.7076569199562" r="49.576930599326" fill-opacity="0.07746395406144688" fill="hsl(307.71064496529146,500.43321309494785964%,60%)" filter="url(#b2)"/><circle cx="1021.7977566719055" cy="757.9684098958969" r="126.45095876390546" fill-opacity="0.1" fill="hsl(505.25202287850965,500.9869380337186158%,60%)" filter="url(#b2)"/><circle cx="18.997804641723633" cy="535.8031856417656" r="103.16886580729063" fill-opacity="0.1" fill="hsl(251.24653215341974,500.697660397971049%,60%)" filter="url(#b2)"/><circle cx="196.9501349925995" cy="609.2789577841759" r="77.46148107582395" fill-opacity="0.1" fill="hsl(293.87292759849714,500.793331976281479%,60%)" filter="url(#b2)"/></g>
+  <g filter="url(#ds)">
+    <use xlink:href="#t" transform="translate(0,10)"/>
+    <use xlink:href="#t" transform="translate(0,9)"/>
+    <use xlink:href="#t" transform="translate(0,8)"/>
+    <use xlink:href="#t" transform="translate(0,7)"/>
+    <use xlink:href="#t" transform="translate(0,6)"/>
+    <use xlink:href="#t" transform="translate(0,5)"/>
+    <use xlink:href="#t" transform="translate(0,4)"/>
+    <use xlink:href="#t" transform="translate(0,3)"/>
+    <use xlink:href="#t" transform="translate(0,2)"/>
+    <use xlink:href="#t" transform="translate(0,1)"/>
+    <text id="t" x="50%" y="50%" fill="url(#lg2)" transform="translate(0,2)"><tref xlink:href="#top"/></text>
+    <text x="50%" y="50%" fill="black" transform="translate(0,2)" stroke="black"><tref xlink:href="#top"/></text>
+    <text x="50%" y="50%" fill="white" transform="translate(0,1)" stroke="white"><tref xlink:href="#top"/></text>
+    <text id="top" x="50%" y="50%" fill="url(#lg)">SVG Wow 2010</text>
+    
+    <animateTransform id="anim" type="rotate" attributeName="transform" values="0 512 384; 360 512 384" dur="10s" begin="svgroot.click"/>
+  </g>
+  <g id="fg">
+  </g>
+  
+ 
+</svg>

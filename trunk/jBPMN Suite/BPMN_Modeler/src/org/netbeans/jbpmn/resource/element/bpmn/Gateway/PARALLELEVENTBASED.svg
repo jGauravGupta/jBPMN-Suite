@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns="http://www.w3.org/2000/svg"
+    version="1.0"
+    width="44"
+    height="44">
+  
+  
+    <g> 
+  	
+        <defs>
+            <filter id="blur-effect">
+                <feGaussianBlur stdDeviation="0.8" />
+            </filter>
+            <radialGradient id="background" cx="10%" cy="10%" r="100%" fx="10%" fy="10%">
+                <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+                <stop id="fill_el" offset="100%" stop-color="#ffffff" stop-opacity="1"/>
+            </radialGradient>
+        </defs>
+	
+        <path
+            d="M 0,21.5 L 21.5,0 L 43,21.5 L 21.5,43z"
+            id="OUTLINE"
+            fill="RGB(226,232,236)" stroke="RGB(108,142,183)"
+            style="stroke-width:1" />
+	
+		
+        <circle id="frame5" cx="21.5" cy="21.5" r="12" stroke="RGB(30,69,123)" fill="none" stroke-width="1"/>
+         
+        <path   
+            d="M 12.25,19.5 L12.25,23.5 L19.5,23.5 L19.5,30.25 L23.5,30.25 L23.5,23.5 L30.25,23.5 L30.25,19.5 L23.5,19.5 L23.5,12.25 L19.5,12.25 L19.5,19.5z"
+            id="path92"
+            stroke="RGB(30,69,123)"
+            style="fill:none;stroke-width:1" />
+	
+
+        <text id="text_name" x="26" y="26" />
+	
+    </g>	
+	
+</svg>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<palette-config id="PROCESS" name="Process" class="org.netbeans.jbpmn.modeler.specification.bpmn.model.process.file.BPMNProcessFileDataObject">
+    <category-node id="TASK" name="Task" icon="/org/netbeans/jbpmn/resource/element/bpmn/Task/TASK_ICON.svg">
+        <subcategory-node  id="Manual_Task" name="Manual" >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Task/MANUAL_ICON.svg" width="39" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Script_Task" name="Script" >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Task/SCRIPT_ICON.svg" width="39" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Service_Task" name="Service" >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Task/SERVICE_ICON.svg" width="39" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="User_Task" name="User" >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Task/USER_ICON.svg" width="39" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="BusinessRule_Task" name="BusinessRule" >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Task/BUSINESSRULE_ICON.svg" width="39" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Send_Task" name="Send" >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Task/SEND_ICON.svg" width="39" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Receive_Task" name="Receive" >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Task/RECEIVE_ICON.svg" width="39" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Abstract_Task" name="Abstract" >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Task/ABSTRACT.svg" width="39" height="32"/>
+        </subcategory-node>
+    </category-node>
+    <category-node id="CONTAINER" name="Container">
+        <subcategory-node  id="Default_SubProcess" name="SubProcess"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Task/DEFAULT_SUBPROCESS_ICON.svg" width="39" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Event_SubProcess" name="Event SubProcess"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Task/EVENT_SUBPROCESS_ICON.svg" width="39" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Transaction_SubProcess" name="Transaction SubProcess"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Task/TRANSACTION_SUBPROCESS_ICON.svg" width="39" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="AdHoc_SubProcess" name="Ad Hoc SubProcess"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Task/ADHOC_SUBPROCESS_ICON.svg" width="39" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Call_Activity" name="Call Activity"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Task/CALL_ACTIVITY.svg" width="39" height="32"/>
+        </subcategory-node>
+    </category-node>
+    <category-node id="GATEWAY" name="Gateway" icon="/org/netbeans/jbpmn/resource/element/bpmn/Gateway/GATEWAY_ICON.svg">
+        <!--<subcategory-node  id="Complex_Gateway" name="Complex" bpmn/Gateway/COMPLEX/></subcategory-node> hidden due to property error -->
+        <subcategory-node  id="EventBased_Gateway" name="EventBased"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Gateway/EVENTBASED.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Exclusive_Gateway" name="Exclusive"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Gateway/EXCLUSIVE.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Inclusive_Gateway" name="Inclusive"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Gateway/INCLUSIVE.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Parallel_Gateway" name="Parallel"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Gateway/PARALLEL.svg" width="32" height="32"/>
+        </subcategory-node>
+    </category-node>
+    <category-node id="START_EVENT" name="Start Event" >
+        <subcategory-node  id="None_Start_Event" name="None"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Start/NONE.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Message_Start_Event" name="Message"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Start/MESSAGE.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Timer_Start_Event" name="Timer"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Start/TIMER.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Error_Start_Event" name="Error"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Start/ERROR.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Compensate_Start_Event" name="Compensate"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Start/COMPENSATE.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Escalation_Start_Event" name="Escalation"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Start/ESCALATION.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Conditional_Start_Event" name="Conditional"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Start/CONDITIONAL.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Signal_Start_Event" name="Signal"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Start/SIGNAL.svg" width="32" height="32"/>
+        </subcategory-node>
+    </category-node>
+    <category-node id="BOUNDARY_EVENT" name="Boundary Event" >
+        <subcategory-node  id="Message_Boundary_Event" name="Message"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Boundary/MESSAGE.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Timer_Boundary_Event" name="Timer"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Boundary/TIMER.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Conditional_Boundary_Event" name="Conditional"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Boundary/CONDITIONAL.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Signal_Boundary_Event" name="Signal"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Boundary/SIGNAL.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Cancel_Boundary_Event" name="Cancel"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Boundary/CANCEL.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Compensate_Boundary_Event" name="Compensate"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Boundary/COMPENSATE.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Error_Boundary_Event" name="Error"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Boundary/ERROR.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Escalation_Boundary_Event" name="Escalation"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Boundary/ESCALATION.svg" width="32" height="32"/>
+        </subcategory-node>
+    </category-node>
+    <category-node id="INTERMEDIATE_CATCH_EVENT" name="Intermediate Catch Event"  icon="/org/netbeans/jbpmn/resource/element/bpmn/IntermediateCatch/CATCH_ICON.svg">
+        <subcategory-node  id="Message_IntermediateCatch_Event" name="Message"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/IntermediateCatch/MESSAGE.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Timer_IntermediateCatch_Event" name="Timer"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/IntermediateCatch/TIMER.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Conditional_IntermediateCatch_Event" name="Conditional"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/IntermediateCatch/CONDITIONAL.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Link_IntermediateCatch_Event" name="Link"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/IntermediateCatch/LINK.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Signal_IntermediateCatch_Event" name="Signal"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/IntermediateCatch/SIGNAL.svg" width="32" height="32"/>
+        </subcategory-node>
+    </category-node>
+    <category-node id="INTERMEDIATE_THROW_EVENT" name="Intermediate Throw Event" icon="/org/netbeans/jbpmn/resource/element/bpmn/IntermediateThrow/THROW_ICON.svg">
+        <subcategory-node  id="None_IntermediateThrow_Event" name="None"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/IntermediateThrow/NONE.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Message_IntermediateThrow_Event" name="Message"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/IntermediateThrow/MESSAGE.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Escalation_IntermediateThrow_Event" name="Escalation"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/IntermediateThrow/ESCALATION.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Compensate_IntermediateThrow_Event" name="Compensate"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/IntermediateThrow/COMPENSATE.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Link_IntermediateThrow_Event" name="Link"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/IntermediateThrow/LINK.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Signal_IntermediateThrow_Event" name="Signal"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/IntermediateThrow/SIGNAL.svg" width="32" height="32"/>
+        </subcategory-node>
+    </category-node>
+    <category-node id="END_EVENT" name="End Event" icon="/org/netbeans/jbpmn/resource/element/bpmn/End/NONE.svg">
+        <subcategory-node  id="None_End_Event" name="None"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/End/NONE.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Message_End_Event" name="Message"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/End/MESSAGE.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Error_End_Event" name="Error"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/End/ERROR.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Escalation_End_Event" name="Escalation"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/End/ESCALATION.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Cancel_End_Event" name="Cancel"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/End/CANCEL.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Compensate_End_Event" name="Compensate"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/End/COMPENSATE.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Signal_End_Event" name="Signal"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/End/SIGNAL.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Terminate_End_Event" name="Terminate"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/End/TERMINATE.svg" width="32" height="32"/>
+        </subcategory-node>
+    </category-node>
+    <category-node id="ARTIFACT" name="Artifact">
+        <subcategory-node  id="TextAnnotation_Artifact" name="Text Annotation"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Artifact/TEXTANNOTATION_ICON.svg" width="39" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Group_Artifact" name="Group"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Artifact/GROUP_ICON.svg" width="39" height="32"/>
+        </subcategory-node>
+    </category-node>
+    <!--        <category-node id="SWIMLANE" name="Swimlane">
+        <subcategory-node  id="Pool_Swimlane"/></subcategory-node>
+        <subcategory-node  id="Lane_Swimlane"/></subcategory-node>
+    </category-node>-->
+
+</palette-config>

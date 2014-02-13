@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="785849135" width="960pt" height="720pt"
+ viewBox="160 0 960 720"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  <defs>
+    <filter id='drop-shadow'>
+      <!-- Shadow Offset -->
+      <!-- EDIT: dx and dy to change the size of the shadow -->
+      <feOffset     
+        dx='-4'
+        dy='4'
+      />
+      <!-- Shadow Blur -->
+      <!-- EDIT: edit stdDeviation to change the shadow blurriness -->
+      <!-- "0" is no blur -->
+      <feGaussianBlur
+        stdDeviation='1'
+        result='offset-blur'
+      />
+      <!-- Color & Opacity -->
+      <feFlood
+        flood-color='black'
+        flood-opacity='1'
+        result='color'
+      />      
+      <!-- Clip color inside shadow -->
+      <feComposite
+        operator='in'
+        in='color'
+        in2='offset-blur'
+        result='shadow'
+      />      
+      <!-- Put original object over shadow -->
+      <feComposite
+        operator='over'
+        in='SourceGraphic'
+        in2='shadow'
+      />
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="99"/>
+      </feComponentTransfer>
+    </filter>
+    </defs>
+      <g  filter='url(#drop-shadow)'>
+        <path fill="#654114" stroke="#654114" stroke-width="0.0" d="M547.71777 390.23407 L 527.47506 392.82273 540.08449 392.79837 539.86309 393.17777 426.68945 586.88612 399.23955 630.62126 361.53130 686.78918 337.97979 720.00000 362.91010 720.00000 391.19683 720.00000 410.65441 686.73793 441.43435 630.48495 463.47400 586.70712 552.51368 393.15324 552.68787 392.77403 565.28519 392.74969 547.71777 390.23407 z"/>
+      </g>
+</svg>

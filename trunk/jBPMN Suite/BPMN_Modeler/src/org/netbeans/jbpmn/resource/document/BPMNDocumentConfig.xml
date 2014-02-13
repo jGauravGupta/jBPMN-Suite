@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document-config>
+    <documents>
+        <!--        <document id="Pool_Swimlane" name="Pool" flowDimension="INTERMIDATE_CATCH" documentModel="SWIMLANE" documentPath="bpmn/Swimlane/POOL">
+            <bounds>
+                <width value="362" min="200.0" max="20000.0"/>
+                <height value="120" min="40.0" max="20000.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(246,242,246)"/>
+                    <border color="RGB(108,142,183)" width="2.5"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Lane_Swimlane" name="Lane" flowDimension="INTERMIDATE_CATCH" documentModel="SWIMLANE" >
+            <bounds>
+                <width value="312" min="200.0" max="20000.0"/>
+                <height value="120" min="40.0" max="20000.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(246,242,246)"/>
+                    <border color="RGB(108,142,183)" width="2.5"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="LaneSet_Head" name="LaneSet_Head" flowDimension="INTERMIDATE_CATCH" documentModel="SWIMLANE" >
+            <bounds>
+                <width value="50" min="200.0" max="20000.0"/>
+                <height value="120" min="40.0" max="20000.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(246,242,246)"/>
+                    <border color="RGB(108,142,183)" width="2.5"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="LaneSet_Body" name="LaneSet_Body" flowDimension="INTERMIDATE_CATCH" documentModel="SWIMLANE" >
+            <bounds>
+                <width value="312" min="200.0" max="20000.0"/>
+                <height value="120" min="40.0" max="20000.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(246,242,246)"/>
+                    <border color="RGB(108,142,183)" width="2.5"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </inner-shape>
+            </shape-design>
+        </document>-->
+        <document id="Default_SubProcess" widget="org.netbeans.jbpmn.core.widget.SubProcessWidget" specification="org.netbeans.jbpmn.spec.TSubProcess"  flowDimension="INTERMIDATE_CATCH" documentModel="ACTIVITY" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Task/DEFAULT_SUBPROCESS.svg</container-document>
+            <bounds>
+                <width value="312" min="200.0" max="20000.0"/>
+                <height value="252" min="150.0" max="20000.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="2.5"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Event_SubProcess" widget="org.netbeans.jbpmn.core.widget.SubProcessWidget" specification="org.netbeans.jbpmn.spec.TSubProcess" definition="triggeredByEvent" flowDimension="INTERMIDATE_CATCH" documentModel="ACTIVITY" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Task/EVENT_SUBPROCESS.svg</container-document>
+            <bounds>
+                <width value="312" min="200.0" max="20000.0"/>
+                <height value="252" min="150.0" max="20000.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="2.5"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Transaction_SubProcess" widget="org.netbeans.jbpmn.core.widget.TransactionSubProcessWidget" specification="org.netbeans.jbpmn.spec.TTransaction"  flowDimension="INTERMIDATE_CATCH" documentModel="ACTIVITY" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Task/TRANSACTION_SUBPROCESS.svg</container-document>
+            <bounds>
+                <width value="312" min="200.0" max="20000.0"/>
+                <height value="252" min="150.0" max="20000.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="2"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="AdHoc_SubProcess" widget="org.netbeans.jbpmn.core.widget.AdHocSubProcessWidget" specification="org.netbeans.jbpmn.spec.TAdHocSubProcess"  flowDimension="INTERMIDATE_CATCH" documentModel="ACTIVITY" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Task/ADHOC_SUBPROCESS.svg</container-document>
+            <bounds>
+                <width value="312" min="200.0" max="20000.0"/>
+                <height value="252" min="150.0" max="20000.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="2.5"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Call_Activity" widget="org.netbeans.jbpmn.core.widget.CallActivityWidget" specification="org.netbeans.jbpmn.spec.TCallActivity" flowDimension="INTERMIDATE_CATCH" documentModel="ACTIVITY" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Task/CALL_ACTIVITY.svg</container-document>
+            <bounds>
+                <width value="80.0" min="60.0" max="298.0"/>
+                <height value="64.0" min="48.0" max="242.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="6"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Manual_Task" widget="org.netbeans.jbpmn.core.widget.ManualTaskWidget" specification="org.netbeans.jbpmn.spec.TManualTask" flowDimension="INTERMIDATE_CATCH" documentModel="ACTIVITY" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Task/MANUAL.svg</container-document>
+            <bounds>
+                <width value="80.0" min="60.0" max="298.0"/>
+                <height value="64.0" min="48.0" max="242.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="2.5"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Script_Task" widget="org.netbeans.jbpmn.core.widget.ScriptTaskWidget" specification="org.netbeans.jbpmn.spec.TScriptTask" flowDimension="INTERMIDATE_CATCH" documentModel="ACTIVITY" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Task/SCRIPT.svg</container-document>
+            <bounds>
+                <width value="80.0" min="60.0" max="298.0"/>
+                <height value="64.0" min="48.0" max="242.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="2.5"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Service_Task" widget="org.netbeans.jbpmn.core.widget.ServiceTaskWidget" specification="org.netbeans.jbpmn.spec.TServiceTask" flowDimension="INTERMIDATE_CATCH" documentModel="ACTIVITY" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Task/SERVICE.svg</container-document>
+            <bounds>
+                <width value="80.0" min="60.0" max="298.0"/>
+                <height value="64.0" min="48.0" max="242.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="2.5"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="User_Task" widget="org.netbeans.jbpmn.core.widget.UserTaskWidget" specification="org.netbeans.jbpmn.spec.TUserTask" flowDimension="INTERMIDATE_CATCH" documentModel="ACTIVITY" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Task/USER.svg</container-document>
+            <bounds>
+                <width value="80.0" min="60.0" max="298.0"/>
+                <height value="64.0" min="48.0" max="242.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="2.5"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="BusinessRule_Task" widget="org.netbeans.jbpmn.core.widget.BusinessRuleTaskWidget" specification="org.netbeans.jbpmn.spec.TBusinessRuleTask" flowDimension="INTERMIDATE_CATCH" documentModel="ACTIVITY" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Task/BUSINESSRULE.svg</container-document>
+            <bounds>
+                <width value="80.0" min="60.0" max="298.0"/>
+                <height value="64.0" min="48.0" max="242.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="2.5"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Send_Task" widget="org.netbeans.jbpmn.core.widget.SendTaskWidget" specification="org.netbeans.jbpmn.spec.TSendTask" flowDimension="INTERMIDATE_CATCH" documentModel="ACTIVITY" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Task/SEND.svg</container-document>
+            <bounds>
+                <width value="80.0" min="60.0" max="298.0"/>
+                <height value="64.0" min="48.0" max="242.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="2.5"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(130,169,223)" end-color="RGB(30,69,123)"/>
+                    <border color="RGB(250,254,255)" width="1.0"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Receive_Task" widget="org.netbeans.jbpmn.core.widget.ReceiveTaskWidget" specification="org.netbeans.jbpmn.spec.TReceiveTask" flowDimension="INTERMIDATE_CATCH" documentModel="ACTIVITY" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Task/RECEIVE.svg</container-document>
+            <bounds>
+                <width value="80.0" min="60.0" max="298.0"/>
+                <height value="64.0" min="48.0" max="242.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="2.5"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Abstract_Task" widget="org.netbeans.jbpmn.core.widget.TaskWidget" specification="org.netbeans.jbpmn.spec.TTask" flowDimension="INTERMIDATE_CATCH" documentModel="ACTIVITY" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Task/ABSTRACT.svg</container-document>
+            <bounds>
+                <width value="80.0" min="60.0" max="298.0"/>
+                <height value="64.0" min="48.0" max="242.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="2.5"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="TextAnnotation_Artifact" widget="org.netbeans.jbpmn.core.widget.TextAnnotationWidget" specification="org.netbeans.jbpmn.spec.TTextAnnotation" flowDimension="INTERMIDATE_CATCH" documentModel="ARTIFACT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Artifact/TEXTANNOTATION.svg</container-document>
+            <bounds>
+                <width value="100.0" min="60.0" max="20000.0"/>
+                <height value="50.0" min="30.0" max="10000.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Group_Artifact" widget="org.netbeans.jbpmn.core.widget.GroupWidget" specification="org.netbeans.jbpmn.spec.TGroup" flowDimension="INTERMIDATE_CATCH" documentModel="ARTIFACT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Artifact/GROUP.svg</container-document>
+            <bounds>
+                <width value="312" min="200.0" max="20000.0"/>
+                <height value="252" min="150.0" max="20000.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(246,242,246)"/>
+                    <border color="RGB(108,142,183)" width="1"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Complex_Gateway" widget="org.netbeans.jbpmn.core.widget.ComplexGatewayWidget" specification="org.netbeans.jbpmn.spec.TComplexGateway" flowDimension="INTERMIDATE_CATCH" documentModel="GATEWAY" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Gateway/COMPLEX.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="1.5"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="3.9"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="EventBased_Gateway" widget="org.netbeans.jbpmn.core.widget.EventBasedGatewayWidget" specification="org.netbeans.jbpmn.spec.TEventBasedGateway" flowDimension="INTERMIDATE_CATCH" documentModel="GATEWAY" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Gateway/EVENTBASED.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="1.5"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.39999998"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Exclusive_Gateway" widget="org.netbeans.jbpmn.core.widget.ExclusiveGatewayWidget" specification="org.netbeans.jbpmn.spec.TExclusiveGateway" flowDimension="INTERMIDATE_CATCH" documentModel="GATEWAY" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Gateway/EXCLUSIVE.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="1.5"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(30,69,123)" end-color="RGB(30,69,123)"/>
+                    <border color="RGB(30,69,123)" width="1"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Inclusive_Gateway" widget="org.netbeans.jbpmn.core.widget.InclusiveGatewayWidget" specification="org.netbeans.jbpmn.spec.TInclusiveGateway" flowDimension="INTERMIDATE_CATCH" documentModel="GATEWAY" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Gateway/INCLUSIVE.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="1.5"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="2.5"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Parallel_Gateway" widget="org.netbeans.jbpmn.core.widget.ParallelGatewayWidget" specification="org.netbeans.jbpmn.spec.TParallelGateway" flowDimension="INTERMIDATE_CATCH" documentModel="GATEWAY" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Gateway/PARALLEL.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="1.5"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(30,69,123)" end-color="RGB(30,69,123)"/>
+                    <border color="RGB(30,69,123)" width="4"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="None_Start_Event" widget="org.netbeans.jbpmn.core.widget.StartEventWidget" specification="org.netbeans.jbpmn.spec.TStartEvent" flowDimension="START" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Start/NONE.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Message_Start_Event" widget="org.netbeans.jbpmn.core.widget.StartEventWidget" specification="org.netbeans.jbpmn.spec.TStartEvent" definition="TMessageEventDefinition" flowDimension="START" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Start/MESSAGE.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1.3"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Timer_Start_Event" widget="org.netbeans.jbpmn.core.widget.StartEventWidget" specification="org.netbeans.jbpmn.spec.TStartEvent" definition="TTimerEventDefinition" flowDimension="START" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Start/TIMER.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Error_Start_Event" widget="org.netbeans.jbpmn.core.widget.StartEventWidget" specification="org.netbeans.jbpmn.spec.TStartEvent" definition="TErrorEventDefinition" flowDimension="START" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Start/ERROR.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Compensate_Start_Event" widget="org.netbeans.jbpmn.core.widget.StartEventWidget" specification="org.netbeans.jbpmn.spec.TStartEvent" definition="TCompensateEventDefinition" flowDimension="START" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Start/COMPENSATE.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Escalation_Start_Event" widget="org.netbeans.jbpmn.core.widget.StartEventWidget" specification="org.netbeans.jbpmn.spec.TStartEvent" definition="TEscalationEventDefinition" flowDimension="START" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Start/ESCALATION.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Conditional_Start_Event" widget="org.netbeans.jbpmn.core.widget.StartEventWidget" specification="org.netbeans.jbpmn.spec.TStartEvent" definition="TConditionalEventDefinition" flowDimension="START" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Start/CONDITIONAL.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1.2"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Signal_Start_Event" widget="org.netbeans.jbpmn.core.widget.StartEventWidget" specification="org.netbeans.jbpmn.spec.TStartEvent" definition="TSignalEventDefinition" flowDimension="START" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Start/SIGNAL.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1.3"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Message_IntermediateCatch_Event" widget="org.netbeans.jbpmn.core.widget.IntermediateCatchEventWidget" specification="org.netbeans.jbpmn.spec.TIntermediateCatchEvent" definition="TMessageEventDefinition" flowDimension="INTERMIDATE_CATCH" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/IntermediateCatch/MESSAGE.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.2"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Timer_IntermediateCatch_Event" widget="org.netbeans.jbpmn.core.widget.IntermediateCatchEventWidget" specification="org.netbeans.jbpmn.spec.TIntermediateCatchEvent" definition="TTimerEventDefinition" flowDimension="INTERMIDATE_CATCH" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/IntermediateCatch/TIMER.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Conditional_IntermediateCatch_Event" widget="org.netbeans.jbpmn.core.widget.IntermediateCatchEventWidget" specification="org.netbeans.jbpmn.spec.TIntermediateCatchEvent" definition="TConditionalEventDefinition" flowDimension="INTERMIDATE_CATCH" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/IntermediateCatch/CONDITIONAL.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Link_IntermediateCatch_Event" widget="org.netbeans.jbpmn.core.widget.IntermediateCatchEventWidget" specification="org.netbeans.jbpmn.spec.TIntermediateCatchEvent" definition="TLinkEventDefinition" flowDimension="INTERMIDATE_CATCH" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/IntermediateCatch/LINK.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.4"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Signal_IntermediateCatch_Event" widget="org.netbeans.jbpmn.core.widget.IntermediateCatchEventWidget" specification="org.netbeans.jbpmn.spec.TIntermediateCatchEvent" definition="TSignalEventDefinition" flowDimension="INTERMIDATE_CATCH" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/IntermediateCatch/SIGNAL.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.4"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="None_IntermediateThrow_Event" widget="org.netbeans.jbpmn.core.widget.IntermediateThrowEventWidget" specification="org.netbeans.jbpmn.spec.TIntermediateThrowEvent" flowDimension="INTERMIDATE_THROW" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/IntermediateThrow/NONE.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(30,69,123)" end-color="RGB(30,69,123)"/>
+                    <border color="RGB(226,232,236)" width="1"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Message_IntermediateThrow_Event" widget="org.netbeans.jbpmn.core.widget.IntermediateThrowEventWidget" specification="org.netbeans.jbpmn.spec.TIntermediateThrowEvent" definition="TMessageEventDefinition" flowDimension="INTERMIDATE_THROW" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/IntermediateThrow/MESSAGE.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(30,69,123)" end-color="RGB(30,69,123)"/>
+                    <border color="RGB(226,232,236)" width="1"/>
+                </inner-shape>
+            </shape-design>
+
+        </document>
+        <document id="Escalation_IntermediateThrow_Event" widget="org.netbeans.jbpmn.core.widget.IntermediateThrowEventWidget" specification="org.netbeans.jbpmn.spec.TIntermediateThrowEvent" definition="TEscalationEventDefinition" flowDimension="INTERMIDATE_THROW" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/IntermediateThrow/ESCALATION.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(30,69,123)" end-color="RGB(30,69,123)"/>
+                    <border color="RGB(30,69,123)" width="1.4"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Compensate_IntermediateThrow_Event" widget="org.netbeans.jbpmn.core.widget.IntermediateThrowEventWidget" specification="org.netbeans.jbpmn.spec.TIntermediateThrowEvent" definition="TCompensateEventDefinition" flowDimension="INTERMIDATE_THROW" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/IntermediateThrow/COMPENSATE.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(30,69,123)" end-color="RGB(30,69,123)"/>
+                    <border color="RGB(30,69,123)" width="1.4"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Link_IntermediateThrow_Event" widget="org.netbeans.jbpmn.core.widget.IntermediateThrowEventWidget" specification="org.netbeans.jbpmn.spec.TIntermediateThrowEvent" definition="TLinkEventDefinition" flowDimension="INTERMIDATE_THROW" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/IntermediateThrow/LINK.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(30,69,123)" end-color="RGB(30,69,123)"/>
+                    <border color="RGB(30,69,123)" width="1.4"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Signal_IntermediateThrow_Event" widget="org.netbeans.jbpmn.core.widget.IntermediateThrowEventWidget" specification="org.netbeans.jbpmn.spec.TIntermediateThrowEvent" definition="TSignalEventDefinition" flowDimension="INTERMIDATE_THROW" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/IntermediateThrow/SIGNAL.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(30,69,123)" end-color="RGB(30,69,123)"/>
+                    <border color="RGB(30,69,123)" width="1.4"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="None_End_Event" widget="org.netbeans.jbpmn.core.widget.EndEventWidget" specification="org.netbeans.jbpmn.spec.TEndEvent" flowDimension="END" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/End/NONE.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="3"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(30,69,123)" end-color="RGB(30,69,123)"/>
+                    <border color="RGB(30,69,123)" width="1.4"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Message_End_Event" widget="org.netbeans.jbpmn.core.widget.EndEventWidget" specification="org.netbeans.jbpmn.spec.TEndEvent" definition="TMessageEventDefinition" flowDimension="END" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/End/MESSAGE.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="3"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(30,69,123)" end-color="RGB(30,69,123)"/>
+                    <border color="RGB(226,232,236)" width="0.4"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Error_End_Event" widget="org.netbeans.jbpmn.core.widget.EndEventWidget" specification="org.netbeans.jbpmn.spec.TEndEvent" definition="TErrorEventDefinition" flowDimension="END" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/End/ERROR.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="3"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(30,69,123)" end-color="RGB(30,69,123)"/>
+                    <border color="RGB(30,69,123)" width="1.5"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Escalation_End_Event" widget="org.netbeans.jbpmn.core.widget.EndEventWidget" specification="org.netbeans.jbpmn.spec.TEndEvent" definition="TEscalationEventDefinition" flowDimension="END" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/End/ESCALATION.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="3"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(30,69,123)" end-color="RGB(30,69,123)"/>
+                    <border color="RGB(30,69,123)" width="1"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Cancel_End_Event" widget="org.netbeans.jbpmn.core.widget.EndEventWidget" specification="org.netbeans.jbpmn.spec.TEndEvent" definition="TCancelEventDefinition" flowDimension="END" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/End/CANCEL.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="3"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(30,69,123)" end-color="RGB(30,69,123)"/>
+                    <border color="RGB(30,69,123)" width="5"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Compensate_End_Event" widget="org.netbeans.jbpmn.core.widget.EndEventWidget" specification="org.netbeans.jbpmn.spec.TEndEvent" definition="TCompensateEventDefinition" flowDimension="END" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/End/COMPENSATE.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="3"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(30,69,123)" end-color="RGB(30,69,123)"/>
+                    <border color="RGB(30,69,123)" width="1"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Signal_End_Event" widget="org.netbeans.jbpmn.core.widget.EndEventWidget" specification="org.netbeans.jbpmn.spec.TEndEvent" definition="TSignalEventDefinition" flowDimension="END" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/End/SIGNAL.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="3"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(30,69,123)" end-color="RGB(30,69,123)"/>
+                    <border color="RGB(30,69,123)" width="1.4"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Terminate_End_Event" widget="org.netbeans.jbpmn.core.widget.EndEventWidget" specification="org.netbeans.jbpmn.spec.TEndEvent" definition="TTerminateEventDefinition" flowDimension="END" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/End/TERMINATE.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="180.0"/>
+                <height value="42.0" min="35.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="3"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(30,69,123)" end-color="RGB(30,69,123)"/>
+                    <border color="RGB(30,69,123)" width="1"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+
+
+
+
+        <document id="Message_Boundary_Event" widget="org.netbeans.jbpmn.core.widget.BoundaryEventWidget" specification="org.netbeans.jbpmn.spec.TBoundaryEvent" definition="TMessageEventDefinition" flowDimension="BOUNDARY" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Boundary/MESSAGE.svg</container-document>
+            <bounds>
+                <width value="37.0" min="30.0" max="180.0"/>
+                <height value="37.0" min="30.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.2"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Timer_Boundary_Event" widget="org.netbeans.jbpmn.core.widget.BoundaryEventWidget" specification="org.netbeans.jbpmn.spec.TBoundaryEvent" definition="TTimerEventDefinition" flowDimension="BOUNDARY" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Boundary/TIMER.svg</container-document>
+            <bounds>
+                <width value="37.0" min="30.0" max="180.0"/>
+                <height value="37.0" min="30.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Conditional_Boundary_Event" widget="org.netbeans.jbpmn.core.widget.BoundaryEventWidget" specification="org.netbeans.jbpmn.spec.TBoundaryEvent" definition="TConditionalEventDefinition" flowDimension="BOUNDARY" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Boundary/CONDITIONAL.svg</container-document>
+            <bounds>
+                <width value="37.0" min="30.0" max="180.0"/>
+                <height value="37.0" min="30.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Signal_Boundary_Event" widget="org.netbeans.jbpmn.core.widget.BoundaryEventWidget" specification="org.netbeans.jbpmn.spec.TBoundaryEvent" definition="TSignalEventDefinition" flowDimension="BOUNDARY" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Boundary/SIGNAL.svg</container-document>
+            <bounds>
+                <width value="37.0" min="30.0" max="180.0"/>
+                <height value="37.0" min="30.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.4"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Cancel_Boundary_Event" widget="org.netbeans.jbpmn.core.widget.BoundaryEventWidget" specification="org.netbeans.jbpmn.spec.TBoundaryEvent" definition="TCancelEventDefinition" flowDimension="BOUNDARY" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Boundary/CANCEL.svg</container-document>
+            <bounds>
+                <width value="37.0" min="30.0" max="180.0"/>
+                <height value="37.0" min="30.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.4"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Compensate_Boundary_Event" widget="org.netbeans.jbpmn.core.widget.BoundaryEventWidget" specification="org.netbeans.jbpmn.spec.TBoundaryEvent" definition="TCompensateEventDefinition" flowDimension="BOUNDARY" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Boundary/COMPENSATE.svg</container-document>
+            <bounds>
+                <width value="37.0" min="30.0" max="180.0"/>
+                <height value="37.0" min="30.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.4"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Error_Boundary_Event" widget="org.netbeans.jbpmn.core.widget.BoundaryEventWidget" specification="org.netbeans.jbpmn.spec.TBoundaryEvent" definition="TErrorEventDefinition" flowDimension="BOUNDARY" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Boundary/ERROR.svg</container-document>
+            <bounds>
+                <width value="37.0" min="30.0" max="180.0"/>
+                <height value="37.0" min="30.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.4"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Escalation_Boundary_Event" widget="org.netbeans.jbpmn.core.widget.BoundaryEventWidget" specification="org.netbeans.jbpmn.spec.TBoundaryEvent" definition="TEscalationEventDefinition" flowDimension="BOUNDARY" documentModel="EVENT" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Boundary/ESCALATION.svg</container-document>
+            <bounds>
+                <width value="37.0" min="30.0" max="180.0"/>
+                <height value="37.0" min="30.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(30,69,123)" width="1.4"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+
+
+
+
+
+
+
+        <document id="Conversation_Conversation" widget="org.netbeans.jbpmn.core.widget.ConversationWidget" specification="org.netbeans.jbpmn.spec.TConversation"  flowDimension="INTERMIDATE_CATCH" documentModel="CONVERSATION" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Conversation/CONVERSATION.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="200.0"/>
+                <height value="37.1" min="30.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="1.5"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(30,69,123)" end-color="RGB(30,69,123)"/>
+                    <border color="RGB(30,69,123)" width="4"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="SubConversation_Conversation" widget="org.netbeans.jbpmn.core.widget.SubConversationWidget" specification="org.netbeans.jbpmn.spec.TSubConversation"  flowDimension="INTERMIDATE_CATCH" documentModel="CONVERSATION" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Conversation/SUBCONVERSATION.svg</container-document>
+            <bounds>
+                <width value="42.0" min="35.0" max="200.0"/>
+                <height value="37.1" min="30.0" max="180.0"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="2"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(30,69,123)" end-color="RGB(30,69,123)"/>
+                    <border color="RGB(30,69,123)" width="4"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+        <document id="Participant_Conversation" widget="org.netbeans.jbpmn.core.widget.ParticipantWidget" specification="org.netbeans.jbpmn.spec.TParticipant"  flowDimension="INTERMIDATE_CATCH" documentModel="CONVERSATION" >
+            <container-document>/org/netbeans/jbpmn/resource/element/bpmn/Conversation/PARTICIPANT.svg</container-document>
+            <bounds>
+                <width value="152.0" min="75.0" max="1500"/>
+                <height value="102.0" min="50.0" max="1000"/>
+            </bounds>
+            <shape-design>
+                <outer-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(226,232,236)"/>
+                    <border color="RGB(108,142,183)" width="2.0"/>
+                </outer-shape>
+                <inner-shape>
+                    <background start-color="RGB(255,255,255)" end-color="RGB(255,248,159)"/>
+                    <border color="RGB(30,69,123)" width="1.0"/>
+                </inner-shape>
+            </shape-design>
+        </document>
+    </documents>
+</document-config>

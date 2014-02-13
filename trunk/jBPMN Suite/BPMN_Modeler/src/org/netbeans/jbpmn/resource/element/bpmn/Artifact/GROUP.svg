@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="122"
+  height="92"
+  version="1.0">
+  <defs>
+ <filter id="blur-effect">
+<feGaussianBlur stdDeviation="0.8" />
+</filter>
+
+     <linearGradient id="outer-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop id="outer-start-grad" offset="0%" style="stop-color:RGB(255,255,255);stop-opacity:1" />
+      <stop id="outer-end-grad" offset="100%" style="stop-color:RGB(246,242,246);stop-opacity:1" />
+    </linearGradient>
+     <linearGradient id="inner-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop id="inner-start-grad" offset="0%" style="stop-color:RGB(255,255,255);stop-opacity:1" />
+      <stop id="inner-end-grad" offset="100%" style="stop-color:RGB(255,248,159);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <g pointer-events="stroke">
+    <rect  x="0" y="0" width="116" height="86" rx="5" ry="5" stroke="white" visibility="hidden" stroke-width="10" fill="none" />
+  <g id="outer" stroke="RGB(108,142,183)" fill="url(#outer-grad)" stroke-width="1" fill-opacity="0.2">
+    <rect id="OUTLINE" x="1" y="1" width="120" height="90" rx="5" ry="5" stroke-dasharray="2, 4, 10, 4"  />
+   </g>
+    <g id="inner" stroke="RGB(30,69,123)" >
+          <text font-size="12" 
+		id="text_name" x="4" y="2" stroke="black">
+	</text>
+        </g>
+  
+  </g>
+</svg>

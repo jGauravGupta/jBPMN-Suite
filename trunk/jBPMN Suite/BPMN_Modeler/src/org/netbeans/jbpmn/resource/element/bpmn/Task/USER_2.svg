@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+
+    width="106"
+    height="86"
+    version="1.0">
+    <defs>
+        <filter id="blur-effect">
+            <feGaussianBlur stdDeviation="0.8" />
+        </filter>
+
+        <linearGradient id="outer-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop id="outer-start-grad" offset="0%" style="stop-color:RGB(255,255,255);stop-opacity:1" />
+            <stop id="outer-end-grad" offset="100%" style="stop-color:RGB(226,232,236);stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="inner-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop id="inner-start-grad" offset="0%" style="stop-color:RGB(255,255,255);stop-opacity:1" />
+            <stop id="inner-end-grad" offset="100%" style="stop-color:RGB(255,248,159);stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    
+    <g pointer-events="fill" >
+        <defs>
+            <radialGradient id="background" cx="10%" cy="10%" r="100%" fx="10%" fy="10%">
+                <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+                <stop id="fill_el" offset="100%" stop-color="RGB(226,232,236)" stop-opacity="1"/>
+            </radialGradient>
+        </defs>
+	
+        
+        
+        
+        
+        <defs>
+            <filter id="drop-glow">
+                <feGaussianBlur stdDeviation="1.5"   result="coloredBlur"/>  
+                <feMerge>    
+                    <feMergeNode in="coloredBlur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+            </filter>
+            <filter id="ds">
+                <feGaussianBlur stdDeviation="2" in="SourceAlpha"/>
+                <feOffset dy="2"/>
+                <feComposite in="SourceGraphic"/>
+            </filter>
+            <filter id="blur-effect">
+                <feGaussianBlur stdDeviation="1.2" />
+            </filter>
+            <filter id="inner_glow">
+                <feGaussianBlur stdDeviation="6"  />
+                <feComposite operator="arithmetic"
+                   in2="SourceAlpha"
+                   k2="-1"
+                   k3="1" />
+            </filter>
+   <filter  id="InnerShadowExample">
+  <!-- Shadow Offset -->
+  <feOffset
+    dx='0'
+    dy='0'
+  />
+
+  <!-- Shadow Blur -->
+  <feGaussianBlur
+    stdDeviation='8'
+    result='offset-blur'
+  />
+
+  <!-- Invert the drop shadow to create an inner shadow -->
+  <feComposite
+    operator='in'
+    in='SourceGraphic'
+    in2='offset-blur'
+    result='inverse'
+  />
+<!--   <filter id="SvgjsFilter1006">
+            <feFlood id="SvgjsFeFlood1007" in="SourceGraphic" result="SvgjsFeFlood1007Out" flood-color="url(#SvgjsRadialGradient1002)"></feFlood>
+            <feBlend id="SvgjsFeBlend1008" in="SourceGraphic" result="SvgjsFeBlend1008Out" in2="SvgjsFeFlood1007Out" mode="multiply"></feBlend>
+        </filter>-->
+
+  <!-- Color & Opacity -->
+  <feFlood
+    flood-color='#99f'
+    flood-opacity='0.5'
+    result='color' mode="multiply"
+  />
+
+  <!-- Clip color inside shadow -->
+  <feComposite
+    operator='in'
+    in='color'
+    in2='inverse'
+    result='shadow'
+  />
+
+  <!-- Put shadow over original object -->
+  <feComposite
+    operator='over'
+    in='shadow'
+    in2='SourceGraphic'
+  />
+</filter>
+<radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);
+      stop-opacity:0" />
+      <stop offset="100%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+    </radialGradient>
+  
+        </defs>   
+        
+        <g  filter="url(#InnerShadowExample)" id="outer" stroke="RGB(108,142,183)" fill="url(#outer-grad)" stroke-width="2.5">
+            <rect id="bg_frame"  x="2" y="2" width="100" height="80" rx="10" ry="10"/>
+        </g>	
+
+              
+        <g  id="inner" stroke="RGB(30,69,123)" fill="url(#inner-grad)"  stroke-width="1">
+            <g id="userTask" transform="scale(1.2,1.2) translate(4,4)" >
+                <path id="userTaskpath"     style="opacity:1;" 
+                      d="M0.585,24.167h24.083v-7.833c0,0-2.333-3.917-7.083-5.167h-9.25
+			c-4.417,1.333-7.833,5.75-7.833,5.75L0.585,24.167z"/>
+                <path id="userTaskpath2"  style="opacity:1;fill:none;"  d="M 6 20 L 6 24" />
+                <path id="userTaskpath3"  style="opacity:1;fill:none;"  d="M 20 20 L 20 24" />
+                <circle id="userTaskcircle"    cx="13.002" cy="5.916" r="5.417"/>
+                <path id="userTaskpath4"  style="opacity:1;"  fill="url(#outer-grad)"
+                      d="M8.043,7.083c0,0,2.814-2.426,5.376-1.807s4.624-0.693,4.624-0.693
+			c0.25,1.688,0.042,3.75-1.458,5.584c0,0,1.083,0.75,1.083,1.5s0.125,1.875-1,3s-5.5,1.25-6.75,0S8.668,12.834,8.668,12
+			s0.583-1.25,1.25-1.917C8.835,9.5,7.419,7.708,8.043,7.083z"/>
+            </g>
+          
+        </g>
+	
+    </g>
+</svg>

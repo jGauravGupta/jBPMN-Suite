@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+
+   width="104"
+   height="84"
+   version="1.0">
+<defs>
+ <filter id="blur-effect">
+<feGaussianBlur stdDeviation="0.8" />
+</filter>
+</defs>
+  
+  <g pointer-events="fill" >
+  	<defs>
+		<radialGradient id="background" cx="10%" cy="10%" r="100%" fx="10%" fy="10%">
+			<stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+			<stop id="fill_el" offset="100%" stop-color="RGB(226,232,236)" stop-opacity="1"/>
+		</radialGradient>
+	</defs>
+	
+	<rect id="text_frame"  x="1" y="1" width="94" height="79" rx="10" ry="10" stroke="none" stroke-width="0" fill="none" />
+    <rect id="callActivity"   x="2" y="2" width="100" height="80" rx="10" ry="10" stroke="RGB(108,142,183)" stroke-width="4" fill="none" />
+	<rect id="bg_frame"  x="2" y="2" width="100" height="80" rx="10" ry="10" stroke="RGB(108,142,183)" stroke-width="1" fill="url(#background) #ffffcc" />
+		
+<!--        <clipPath id="clip1">
+            <rect x="2.5" y="2" width="98.8" height="80" />
+         </clipPath>
+        <text clip-path="url(#clip1)" style=""
+			font-size="8" 
+			id="text_name" 
+			x="3" 
+			y="45" 
+			
+			
+			>vvvf\nfffffffffddd\ndddddddrrrrrrrrrrrr
+                   <tspan x="3" dy="1.2em">Line 2</tspan> 
+<tspan x="3" dy="1.2em">Line 34634fdgjre7945jhh984yh5yjohre98hu45jnyoi45uhre8hgowesuy8097e3</tspan> 
+<tspan x="3" dy="1.2em">Line 455534634634fhdhythfgu4534635ger44</tspan> 
+    </text>-->
+<!--    
+    <textArea font-size="3"  x="5" y="45" width="200"  height="300"> 
+Line 1<tbreak/> 
+Line 2<tbreak/> 
+Line 3<tbreak/> 
+Line4 
+</textArea> -->
+   
+              
+            
+	
+	<g id="userTask" transform="scale(2.4,2.4) translate(9,4.5)" >
+		<path id="userTaskpath"  stroke="RGB(30,69,123)"  fill="RGB(255,248,159)" style="opacity:1;" 
+		 d="M0.585,24.167h24.083v-7.833c0,0-2.333-3.917-7.083-5.167h-9.25
+			c-4.417,1.333-7.833,5.75-7.833,5.75L0.585,24.167z"/>
+		<path id="userTaskpath2"  style="opacity:1;fill:none;" stroke="RGB(30,69,123)" d="M 6 20 L 6 24" />
+		<path id="userTaskpath3"  style="opacity:1;fill:none;" stroke="RGB(30,69,123)" d="M 20 20 L 20 24" />
+		<circle id="userTaskcircle"  fill="RGB(30,69,123)" stroke="RGB(30,69,123)" cx="13.002" cy="5.916" r="5.417"/>
+		<path id="userTaskpath4"  style="opacity:1;fill:#F0EFF0;" stroke="RGB(30,69,123)"
+		d="M8.043,7.083c0,0,2.814-2.426,5.376-1.807s4.624-0.693,4.624-0.693
+			c0.25,1.688,0.042,3.75-1.458,5.584c0,0,1.083,0.75,1.083,1.5s0.125,1.875-1,3s-5.5,1.25-6.75,0S8.668,12.834,8.668,12
+			s0.583-1.25,1.25-1.917C8.835,9.5,7.419,7.708,8.043,7.083z"/>
+	</g>
+	
+  </g>
+</svg>

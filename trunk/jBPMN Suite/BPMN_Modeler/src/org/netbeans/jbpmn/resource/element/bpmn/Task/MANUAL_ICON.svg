@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+
+   width="104"
+   height="84"
+   version="1.0">
+<defs>
+ <filter id="blur-effect">
+<feGaussianBlur stdDeviation="0.8" />
+</filter>
+</defs>
+  
+  <g pointer-events="fill" >
+  	<defs>
+		<radialGradient id="background" cx="10%" cy="10%" r="100%" fx="10%" fy="10%">
+			<stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+			<stop id="fill_el" offset="100%" stop-color="RGB(226,232,236)" stop-opacity="1"/>
+		</radialGradient>
+	</defs>
+	
+	<rect id="text_frame"  x="1" y="1" width="94" height="79" rx="10" ry="10" stroke="none" stroke-width="0" fill="none" />
+    <rect id="callActivity"   x="2" y="2" width="100" height="80" rx="10" ry="10" stroke="RGB(108,142,183)" stroke-width="4" fill="none" />
+	<rect id="bg_frame"  x="2" y="2" width="100" height="80" rx="10" ry="10" stroke="RGB(108,142,183)" stroke-width="1" fill="url(#background) #ffffcc" />
+		
+   
+    <g id="manualTask" transform="scale(2.2,2.2) translate(9,10)" >
+    	<path  id="hand" 
+    		stroke="RGB(30,69,123)"  fill="RGB(255,248,159)"
+    		stroke-width="1"
+    		style="opacity:1;fill-opacity:1;" 
+			d="M0.5,3.751l4.083-3.25c0,0,11.166,0.083,12.083,0.083s-2.417,2.917-1.5,2.917
+				s11.667,0,12.584,0c1.166,1.708-0.168,3.167-0.834,3.667s0.875,1.917-1,4.417c-0.75,0.25,0.75,1.875-1.333,3.333
+				c-1.167,0.583,0.583,1.542-1.25,2.833c-1.167,0-20.833,0.083-20.833,0.083l-2-1.333V3.751z"/>
+		<path  id="finger" style="opacity:1;fill:none; stroke-width:2" stroke="RGB(30,69,123)"  d="M 13.5 7 L 27 7" />
+		<path  id="finger1" style="opacity:1;fill:none; stroke-width:2" stroke="RGB(30,69,123)" d="M 13.5 11 L 26 11" />
+		<path  id="finger2" style="opacity:1;fill:none; stroke-width:1.5" stroke="RGB(30,69,123)" d="M 14 14.5 L 25 14.5" />
+		<path  id="thumb" style="opacity:1;fill:none; stroke-width:1.5" stroke="RGB(30,69,123)" d="M 8.2 3.1 L 15 3.1" />
+	</g>
+	
+	
+  </g>
+</svg>

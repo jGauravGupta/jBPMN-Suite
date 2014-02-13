@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<palette-config id="CONVERSATION" name="Conversation" class="org.netbeans.jbpmn.modeler.specification.bpmn.model.conversation.file.BPMNConversationFileDataObject">
+    <category-node id="CONVERSATION" name="Conversation">
+        <subcategory-node  id="Participant_Conversation" name="Participant"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Conversation/PARTICIPANT.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Conversation_Conversation" name="Conversation"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Conversation/CONVERSATION.svg" width="32" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="SubConversation_Conversation" name="SubConversation"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Conversation/SUBCONVERSATION.svg" width="32" height="32"/>
+        </subcategory-node>
+    </category-node>
+    <category-node id="ARTIFACT" name="Artifact">
+        <subcategory-node  id="TextAnnotation_Artifact" name="Text Annotation"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Artifact/TEXTANNOTATION_ICON.svg" width="39" height="32"/>
+        </subcategory-node>
+        <subcategory-node  id="Group_Artifact" name="Group"  >
+            <palette-document icon="/org/netbeans/jbpmn/resource/element/bpmn/Artifact/GROUP_ICON.svg" width="39" height="32"/>
+        </subcategory-node>
+    </category-node>
+</palette-config>
+
+
+
