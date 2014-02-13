@@ -1,0 +1,10 @@
+RelationValidator.java
+
+
+Connection Start :-
+ConnectAction.mousePressed().mousePressedCore()   PaletteButton.mousePressed
+.mouseDragged().move().resolveTargetWidgetCore().resolveTargetWidgetCoreDive() -> SceneConnectProvider.isTargetWidget()
+PaletteButton.mouseReleased()
+
+Connection Create :-
+SceneConnectProvider.createConnection

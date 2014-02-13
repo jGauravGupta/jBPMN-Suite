@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="34"
+    height="30"
+    version="1.0">
+    <defs>
+        <filter id="blur-effect">
+            <feGaussianBlur stdDeviation="0.8" />
+        </filter>
+        <linearGradient id="outer-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop id="outer-start-grad" offset="0%" style="stop-color:RGB(255,255,255);stop-opacity:1" />
+            <stop id="outer-end-grad" offset="100%" style="stop-color:RGB(226,232,236);stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="inner-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop id="inner-start-grad" offset="0%" style="stop-color:RGB(255,255,255);stop-opacity:1" />
+            <stop id="inner-end-grad" offset="100%" style="stop-color:RGB(226,232,236);stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <g pointer-events="fill">
+        <g id="outer" transform="translate(0,0.3)"  stroke="RGB(108,142,183)" fill="url(#outer-grad)" stroke-width="2">
+         <polygon id="OUTLINE" points="8.64,28.43 0.578,14.464 8.64,0.5 24.766,0.5 32.828,14.464,24.766,28.43"/>
+	<rect id="plusborder" x="11" y="16.834" fill="none" width="11.583" height="11.583"/>
+         <path id="plus2" fill="none" d="M16.729,19.582v5.962 M13.749,22.562h5.961"/>
+        </g>	
+        
+    </g>
+</svg>

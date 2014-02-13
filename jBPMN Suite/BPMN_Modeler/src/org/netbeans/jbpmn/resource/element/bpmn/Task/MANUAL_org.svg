@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="104" height="84" version="1.0"
+
+   
+
+>
+    <defs>
+        <filter id="blur-effect">
+            <feGaussianBlur stdDeviation="0.8" />
+        </filter>
+
+        <linearGradient id="outer-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop id="outer-start-grad" offset="0%" style="stop-color:RGB(255,255,255);stop-opacity:1" />
+            <stop id="outer-end-grad" offset="100%" style="stop-color:RGB(226,232,236);stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="inner-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop id="inner-start-grad" offset="0%" style="stop-color:RGB(255,255,255);stop-opacity:1" />
+            <stop id="inner-end-grad" offset="100%" style="stop-color:RGB(255,248,159);stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    
+    <g pointer-events="fill" >
+        <defs>
+            <radialGradient id="background" cx="10%" cy="10%" r="100%" fx="10%" fy="10%">
+                <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+                <stop id="fill_el" offset="100%" stop-color="RGB(226,232,236)" stop-opacity="1"/>
+            </radialGradient>
+        </defs>
+	
+     
+        <g id="outer" stroke="RGB(108,142,183)" fill="url(#outer-grad)" stroke-width="2.5">
+            <rect id="OUTLINE" x="2" y="2" w="100" h="80" width="100" height="80" rx="10" ry="10"  />
+        </g>
+         <g id="inner" stroke="RGB(30,69,123)" fill="url(#inner-grad)"  stroke-width="1">
+            <g id="manualTask" transform="scale(1.2,1.2) translate(4,4)"  >
+                <path  id="hand" 
+                       style="opacity:1;fill-opacity:1;" 
+                       d="M0.5,3.751l4.083-3.25c0,0,11.166,0.083,12.083,0.083s-2.417,2.917-1.5,2.917
+				s11.667,0,12.584,0c1.166,1.708-0.168,3.167-0.834,3.667s0.875,1.917-1,4.417c-0.75,0.25,0.75,1.875-1.333,3.333
+				c-1.167,0.583,0.583,1.542-1.25,2.833c-1.167,0-20.833,0.083-20.833,0.083l-2-1.333V3.751z"/>
+                <path  id="finger" style="opacity:1;fill:none;"  d="M 13.5 7 L 27 7" />
+                <path  id="finger1" style="opacity:1;fill:none;" d="M 13.5 11 L 26 11" />
+                <path  id="finger2" style="opacity:1;fill:none;" d="M 14 14.5 L 25 14.5" />
+                <path  id="thumb" style="opacity:1;fill:none;" d="M 8.2 3.1 L 15 3.1" />
+            </g>
+        
+        </g>
+        
+        <g id="standard" stroke="RGB(30,69,123)"  stroke-width="1" opacity="0">
+            <path style="opacity:1;fill:none;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.0999999;stroke-dasharray:none;stroke-opacity:1"
+                      d="M 49.5,72 L 49.5,75 L 46.5,75 M 49.5,75 A 4.875,4.875 0 1 1 53.5,75" />
+        </g>	
+        <g id="parallel" stroke="RGB(30,69,123)" stroke-width="1" opacity="0">
+            <path id="parallelpath"  fill="none"  d="M46 65 v10 M50 65 v10 M54 65 v10" />
+        </g>
+        <g id="sequential" stroke="RGB(30,69,123)" stroke-width="1" opacity="0">
+            <path id="sequentialpath"  fill="none" d="M45,67 h10 M45,71 h10 M45,75 h10"/>
+        </g>
+        <g id="compensation" stroke="RGB(30,69,123)" stroke-width="1" opacity="0">
+            <path id="compensationpath"  fill="none" d="M 50 70 L 55 65 L 55 75z M44.7 70 L49.7 75 L 49.7 65z"
+                      transform="translate(-13)" />
+        </g>
+	
+	
+    </g>
+</svg>

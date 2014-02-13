@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<element-config>
+    <groups>
+        <group id="BASIC_PROP" name="Basic Properties"/>
+        <group id="IO_SPEC_PROP" name="I/O Specification Properties"/>
+        <group id="DATA_ITEMS" name="Data Items"/>
+        <group id="DATA_DEFINITIONS" name="Data Definitions"/>
+        <group id="OTHER_PROP" name="Other Properties"/>
+
+        <group id="OUTER_PROP" name="Outer Element Property"/>
+        <group id="INNER_PROP" name="Inner Element Property"/>
+
+    </groups>
+    <elements>
+        <element id="TBaseElement" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TBaseElement">
+            <attributes>
+                <attribute id="id" groupId="BASIC_PROP" class="java.lang.String" name="id" read-only="true">
+                    <display-name>Element ID</display-name>
+                    <description>Description : This attribute identifies the auto generated id of the BPMN element. </description>
+                </attribute>
+                <attribute id="documentationEmbedded" groupId="OTHER_PROP" class="java.lang.String" name="documentationEmbedded" condition="">
+                    <display-name>Documentation</display-name>
+                    <description>Description : This attribute is used to annotate the BPMN element, such as descriptions and other documentation.</description>
+                </attribute>
+            </attributes>
+        </element>
+
+        <element id="TProcess" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TProcess">
+            <attributes>
+                <attribute id="id" groupId="BASIC_PROP" class="java.lang.String" name="id" read-only="false">
+                    <display-name>Element ID</display-name>
+                    <description>Description : This attribute identifies the id of the BPMN Process. </description>
+                </attribute>
+                <attribute id="name" groupId="BASIC_PROP" class="java.lang.String" name="name">
+                    <display-name>Name</display-name>
+                    <description>Description : The descriptive name of the BPMN element.</description>
+                </attribute>
+                <attribute id="auditingEmbedded" groupId="OTHER_PROP" class="java.lang.String" name="auditingEmbedded" condition="">
+                    <display-name>Auditing</display-name>
+                    <description>A hook for specifying audit related properties. Auditing can only be defined for a Process.</description>
+                </attribute>
+                <attribute id="monitoringEmbedded" groupId="OTHER_PROP" class="java.lang.String" name="monitoringEmbedded" condition="">
+                    <display-name>Monitoring</display-name>
+                    <description>A hook for specifying monitoring related properties. Monitoring can only be defined for a Process.</description>
+                </attribute>
+                <attribute id="isClosed" groupId="BASIC_PROP" class="java.lang.Boolean" name="isClosed" condition="">
+                    <display-name>Is Closed </display-name>
+                    <description>Description : A boolean value specifying whether interactions, such as sending and receiving messages and events, not modeled in the process can occur when the process is executed or performed. If the value is true, they may not occur. If the value is false, they may occur.</description>
+                </attribute>
+                <attribute id="isExecutable" groupId="BASIC_PROP" class="java.lang.Boolean" name="isExecutable" condition="">
+                    <display-name>Is Executable </display-name>
+                    <description>Description : An optional boolean value specifying whether the process is executable. </description>
+                </attribute>
+            </attributes>
+        </element>
+
+        <element id="TCollaboration" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TCollaboration">
+            <attributes>
+                <attribute id="name" groupId="BASIC_PROP" class="java.lang.String" name="name">
+                    <display-name>Name</display-name>
+                    <description>Description : The descriptive name of the BPMN element.</description>
+                </attribute>
+                <attribute id="isClosed" groupId="BASIC_PROP" class="java.lang.Boolean" name="isClosed" condition="">
+                    <display-name>Is Closed </display-name>
+                    <description>Description : A boolean value specifying whether interactions, such as sending and receiving messages and events, not modeled in the process can occur when the process is executed or performed. If the value is true, they may not occur. If the value is false, they may occur.</description>
+                </attribute>
+            </attributes>
+        </element>
+        <element id="TCollaborationElement" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.extend.TCollaborationElement">
+            <attributes>
+                <attribute id="name" groupId="BASIC_PROP" class="java.lang.String" name="name">
+                    <display-name>Name</display-name>
+                    <description>Description : The descriptive name of the BPMN element.</description>
+                </attribute>
+            </attributes>
+        </element>
+        <!--        <element id="TConversationNode" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TConversationNode">
+            <attributes>
+                <attribute id="name" groupId="BASIC_PROP" class="java.lang.String" name="name">
+                    <display-name>Name</display-name>
+                    <description>Description : The descriptive name of the BPMN element.</description>
+                </attribute>
+            </attributes>
+        </element>
+        <element id="TParticipant" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TParticipant">
+            <attributes>
+                <attribute id="name" groupId="BASIC_PROP" class="java.lang.String" name="name">
+                    <display-name>Name</display-name>
+                    <description>Description : The descriptive name of the BPMN element.</description>
+                </attribute>
+            </attributes>
+        </element>-->
+
+
+
+
+
+        <element id="TDefinitions" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TDefinitions">
+            <attributes>
+                <attribute id="exporter" groupId="OTHER_PROP" class="java.lang.String" name="exporter" condition="" read-only="true" value="jBPMN NB">
+                    <display-name>Exporter</display-name>
+                    <description>Description : This attribute identifies the tool that was exporting the BPMN 2.0 model file. </description>
+                </attribute>
+                <attribute id="exporterVersion" groupId="OTHER_PROP" class="java.lang.String" name="exporterVersion" condition="" read-only="true" value="0.3">
+                    <display-name>Exporter Version </display-name>
+                    <description>Description : This attribute identifies the version of the tool that is exporting the BPMN 2.0 model file. </description>
+                </attribute>
+                <attribute id="expressionLanguage" groupId="OTHER_PROP" class="java.lang.String" name="expressionLanguage" value="http://www.w3.org/1999/XPath">
+                    <display-name>Expression Language</display-name>
+                    <description>Description : A language may be provided so that the syntax of expressions used in the diagram can be understood. </description>
+                </attribute>
+                <attribute id="typeLanguage" groupId="OTHER_PROP" class="java.lang.String" name="typeLanguage"  value="http://www.w3.org/2001/XMLSchema">
+                    <display-name>Type Language</display-name>
+                    <description>Description : This attribute identifies the type system used by the elements of this definition. </description>
+                </attribute>
+            </attributes>
+        </element>
+
+        <!--         <element id="TBoundaryEvent" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TBoundaryEvent">
+            <attributes>
+                <attribute id="cancelActivityEmbedded" groupId="BASIC_PROP" class="java.lang.Boolean" name="cancelActivityEmbedded" condition="">
+                    <display-name>Cancel activity</display-name>
+                    <description>Description : Denotes whether the activity should be canceled or not (i.e., whether the boundary catch event acts as an Error or an Escalation). If the activity is not canceled, multiple instances of that handler can run concurrently.</description>
+                </attribute>
+            </attributes>
+        </element>-->
+        <element id="TCatchEvent" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TCatchEvent">
+            <attributes>
+                <attribute id="parallelMultiple" groupId="BASIC_PROP" class="java.lang.Boolean" name="parallelMultiple" >
+                    <display-name>Parallel Multiple </display-name>
+                    <description> </description>
+                </attribute>
+            </attributes>
+        </element>
+        <!--        <element id="TStartEvent" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TStartEvent">
+            <attributes>
+                <attribute id="isInterrupting" groupId="BASIC_PROP" class="java.lang.Boolean" name="isInterrupting" >
+                    <display-name>Is Interrupting</display-name>
+                    <description> </description>
+                    specified in widget
+                </attribute>
+            </attributes>
+        </element>-->
+
+        <!--        <element id="TMessageEventDefinition" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TMessageEventDefinition">
+            <attributes>
+                <attribute id="operationRef" groupId="BASIC_PROP" class="java.lang.String" name="operationRef" condition="">
+                    <display-name>Operation Name</display-name>
+                    <description>Description : The name of the instruction of the defined message.</description>
+                </attribute>
+                               <attribute id="messageNameEmbedded" groupId="BASIC_PROP" class="java.lang.String" name="messageNameEmbedded" condition="">
+                    <display-name>Message Name</display-name>
+                    <description>Description : The name of the message definition.</description>
+                </attribute>
+            </attributes>
+        </element>-->
+        <element id="TTimerEventDefinition" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TTimerEventDefinition">
+            <attributes>
+                <attribute id="timeDateEmbedded" groupId="BASIC_PROP" class="java.lang.String" name="timeDate" condition="">
+                    <display-name>Time Date</display-name>
+                    <description>Description : The date of the timer definition.</description>
+                </attribute>
+                <attribute id="timeCycleEmbedded" groupId="BASIC_PROP" class="java.lang.String" name="timeCycle" condition="">
+                    <display-name>Time Cycle</display-name>
+                    <description>Description : The time cycle of the timer definition.</description>
+                </attribute>
+                <attribute id="timeDurationEmbedded" groupId="BASIC_PROP" class="java.lang.String" name="timeDuration" condition="">
+                    <display-name>Time Duration</display-name>
+                    <description>Description : The duration of the timer definition.</description>
+                </attribute>
+            </attributes>
+        </element>
+        <element id="TErrorEventDefinition" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TErrorEventDefinition">
+            <attributes>
+                <!--                <attribute id="errorNameEmbedded" groupId="BASIC_PROP" class="java.lang.String" name="errorNameEmbedded" condition="">
+                    <display-name>Error Name</display-name>
+                    <description>Description : The name of the error definition.</description>
+                </attribute>
+                 <attribute id="errorCodeEmbedded" groupId="BASIC_PROP" class="java.lang.String" name="errorCodeEmbedded" condition="">
+                    <display-name>Error Code</display-name>
+                    <description>Description : The code of the error definition.</description>
+                </attribute>-->
+            </attributes>
+        </element>
+
+        <element id="TEscalationEventDefinition" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TEscalationEventDefinition">
+            <attributes>
+                <!--                <attribute id="escalationNameEmbedded" groupId="BASIC_PROP" class="java.lang.String" name="escalationNameEmbedded" condition="">
+                    <display-name>Escalation Name</display-name>
+                    <description>Description : The name of the escalation definition.</description>
+                </attribute>
+                 <attribute id="escalationCodeEmbedded" groupId="BASIC_PROP" class="java.lang.String" name="escalationCodeEmbedded" condition="">
+                    <display-name>Escalation Code</display-name>
+                    <description>Description : The code of the escalation definition.</description>
+                </attribute>-->
+            </attributes>
+        </element>
+        <element id="TCancelEventDefinition" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TCancelEventDefinition">
+        </element>
+        <element id="TCompensateEventDefinition" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TCompensateEventDefinition">
+            <attributes>
+                <attribute id="waitForCompletion" groupId="BASIC_PROP" class="java.lang.Boolean" name="waitForCompletion" >
+                    <display-name>Wait For Completion </display-name>
+                    <description>Description : Determine whether a throw compensation is performed synchronously or asynchronously. </description>
+                </attribute>
+            </attributes>
+        </element>
+        <element id="TConditionalEventDefinition" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TConditionalEventDefinition">
+            <attributes>
+                <attribute id="conditionEmbedded" groupId="BASIC_PROP" class="java.lang.String" name="conditionEmbedded">
+                    <display-name>Condition</display-name>
+                    <description></description>
+                </attribute>
+            </attributes>
+        </element>
+        <element id="TLinkEventDefinition" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TLinkEventDefinition"></element>
+        <element id="TSignalEventDefinition" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TSignalEventDefinition"></element>
+        <element id="TTerminateEventDefinition" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TTerminateEventDefinition"></element>
+
+
+
+
+
+
+
+
+        <element id="TFlowElement" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TFlowElement">
+            <attributes>
+                <attribute id="name" groupId="BASIC_PROP" class="java.lang.String" name="name">
+                    <display-name>Name</display-name>
+                    <description>Description : The descriptive name of the BPMN element.</description>
+                </attribute>
+                <attribute id="auditingEmbedded" groupId="OTHER_PROP" class="java.lang.String" name="auditingEmbedded" condition="">
+                    <display-name>Auditing</display-name>
+                    <description>A hook for specifying audit related properties. Auditing can only be defined for a Process.</description>
+                </attribute>
+                <attribute id="monitoringEmbedded" groupId="OTHER_PROP" class="java.lang.String" name="monitoringEmbedded" condition="">
+                    <display-name>Monitoring</display-name>
+                    <description>A hook for specifying monitoring related properties. Monitoring can only be defined for a Process.</description>
+                </attribute>
+            </attributes>
+        </element>
+
+        <element id="TSequenceFlow" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TSequenceFlow">
+            <attributes>
+                <attribute id="conditionExpression" groupId="BASIC_PROP" class="org.netbeans.modeler.specification.model.document.ITextElement" name="conditionExpression" condition="">
+                    <display-name>Condition</display-name>
+                    <description>This attribute defines a boolean expression that, when evaluated to true, cancels the remaining activity instances and produces a token.</description>
+                </attribute>
+                <attribute id="isImmediate" groupId="BASIC_PROP" class="java.lang.Boolean" name="isImmediate" condition="">
+                    <display-name>Is Immediate</display-name>
+                    <description>An optional boolean value specifying whether activities containing the Sequence Flow can occur between the elements connected by the sequence flow (not selected) or not (selected).</description>
+                </attribute>
+            </attributes>
+        </element>
+
+        <element id="TTextAnnotation" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TTextAnnotation">
+            <attributes>
+                <attribute id="text" groupId="BASIC_PROP" class="org.netbeans.modeler.specification.model.document.ITextElement" name="text" condition="">
+                    <display-name>Text</display-name>
+                    <description>The annotating text.</description>
+                </attribute>
+                <attribute id="textFormat" groupId="BASIC_PROP" class="java.lang.String" name="textFormat" condition="">
+                    <display-name>Text Format</display-name>
+                    <description>This attribute identifies the format of the text. It must follow the mimetype format.</description>
+                </attribute>
+            </attributes>
+        </element>
+
+
+
+
+
+
+
+
+
+        <element id="TActivity" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TActivity">
+            <attributes>
+                <attribute id="isForCompensation" groupId="BASIC_PROP" class="java.lang.Boolean" name="isForCompensation" condition="">
+                    <display-name>Is For Compensation</display-name>
+                    <description>Description : A flag that identifies whether this Activity is intended for the purposes of
+                        compensation.
+                        If false, then this Activity executes as a result of normal execution flow.
+                        If true, this Activity is only activated when a Compensation Event is
+                        detected and initiated under Compensation Event visibility scope.</description>
+                </attribute>
+                <attribute id="startQuantity" groupId="BASIC_PROP" class="java.lang.Integer" name="startQuantity" condition="">
+                    <display-name>Start Quantity</display-name>
+                    <description>Description :  This attribute defines the number of tokens that MUST arrive before the
+                        Activity can begin. Note that any value for the attribute that is greater
+                        than 1 is an advanced type of modeling and should be used with caution.
+                        * The default value is 1. The value MUST NOT be less than 1.</description>
+                </attribute>
+                <attribute id="completionQuantity" groupId="BASIC_PROP" class="java.lang.Integer" name="completionQuantity" condition="">
+                    <display-name>Completion Quantity</display-name>
+                    <description>Description : This attribute defines the number of tokens that MUST be generated from the
+                        Activity. This number of tokens will be sent done any outgoing
+                        Sequence Flow (assuming any Sequence Flow conditions are satisfied).
+                        Note that any value for the attribute that is greater than 1 is an
+                        advanced type of modeling and should be used with caution.
+                        * The default value is 1. The value MUST NOT be less than 1. </description>
+                </attribute>
+            </attributes>
+        </element>
+        <element id="TUserTask" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TUserTask">
+            <attributes>
+                <attribute id="implementation" groupId="BASIC_PROP" class="java.lang.String" name="implementation" condition="">
+                    <display-name>Implementation Type</display-name>
+                    <description>Description : This attribute allows to reference a concrete artifact in the underlying implementation technology representing that operation.</description>
+                </attribute>
+            </attributes>
+        </element>
+        <element id="TScriptTask" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TScriptTask">
+            <attributes>
+                <attribute id="scriptFormat" groupId="BASIC_PROP" class="java.lang.String" name="scriptFormat" condition="">
+                    <display-name>Script Format Type</display-name>
+                    <description>Description : Defines the format of the script. This attribute value MUST be specified with a
+                        mime-type format. And it MUST be specified if a script is provided.</description>
+                </attribute>
+                <attribute id="script" groupId="BASIC_PROP" class="java.lang.String" name="script" condition="">
+                    <display-name>Script</display-name>
+                    <description>Description : The modeler MAY include a script that can be run when the Task is performed.
+                        If a script is not included, then the Task will act as the equivalent of
+                        an Abstract Task.</description>
+                </attribute>
+            </attributes>
+        </element>
+        <element id="TServiceTask" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TServiceTask">
+            <attributes>
+                <attribute id="implementation" groupId="BASIC_PROP" class="java.lang.String" name="implementation" condition="">
+                    <display-name>Implementation Type</display-name>
+                    <description>Description : This attribute allows to reference a concrete artifact in the underlying implementation technology representing that operation.</description>
+                </attribute>
+                <!--                <attribute id="operationRef" groupId="BASIC_PROP" class="java.lang.String" name="operationRef" condition="">
+                    <display-name>Operation Reference</display-name>
+                    <description>Description : This attribute specifies the operation that is invoked by the
+                        Service Task.</description>
+                </attribute>-->
+            </attributes>
+        </element>
+        <element id="TBusinessRuleTask" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TBusinessRuleTask">
+            <attributes>
+                <attribute id="implementation" groupId="BASIC_PROP" class="java.lang.String" name="implementation" condition="">
+                    <display-name>Implementation Type</display-name>
+                    <description>Description : This attribute allows to reference a concrete artifact in the underlying implementation technology representing that operation.</description>
+                </attribute>
+            </attributes>
+        </element>
+        <element id="TSendTask" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TSendTask">
+            <attributes>
+                <attribute id="implementation" groupId="BASIC_PROP" class="java.lang.String" name="implementation" condition="">
+                    <display-name>Implementation Type</display-name>
+                    <description>Description : This attribute allows to reference a concrete artifact in the underlying implementation technology representing that operation.</description>
+                </attribute>
+                <!--                 <attribute id="messageRef" groupId="BASIC_PROP" class="java.lang.String" name="messageRef" condition="">
+                    <display-name>Message reference</display-name>
+                    <description>Description : This specifies a message that will be sent by the task. One or more outgoing message flows may be shown but are not required. The message is applied to all outgoing message flows and will be sent down all outgoing message flows at the completion of a single instance of the task.</description>
+                </attribute>
+                <attribute id="operationRef" groupId="BASIC_PROP" class="java.lang.String" name="operationRef" condition="">
+                    <display-name>Operation reference</display-name>
+                    <description>Description : ID-Reference to an operation definition.</description>
+                </attribute>-->
+            </attributes>
+        </element>
+        <element id="TReceiveTask" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TReceiveTask">
+            <attributes>
+                <attribute id="implementation" groupId="BASIC_PROP" class="java.lang.String" name="implementation" condition="">
+                    <display-name>Implementation Type</display-name>
+                    <description>Description : This attribute allows to reference a concrete artifact in the underlying implementation technology representing that operation.</description>
+                </attribute>
+                <attribute id="instantiate" groupId="BASIC_PROP" class="java.lang.Boolean" name="instantiate" condition="">
+                    <display-name>Instantiate</display-name>
+                    <description>Description : Receive tasks can be defined as the instantiation mechanism for the process with the instantiate attribute. With this attribute set, the receive task can act like a message start event.</description>
+                </attribute>
+                <!--                <attribute id="messageRef" groupId="BASIC_PROP" class="java.lang.String" name="messageRef" condition="">
+                    <display-name>Message reference</display-name>
+                    <description>Description : This specifies a message that will be sent by the task. One or more outgoing message flows may be shown but are not required. The message is applied to all outgoing message flows and will be sent down all outgoing message flows at the completion of a single instance of the task.</description>
+                </attribute>
+                <attribute id="operationRef" groupId="BASIC_PROP" class="java.lang.String" name="operationRef" condition="">
+                    <display-name>Operation reference</display-name>
+                    <description>Description : ID-Reference to an operation definition.</description>
+                </attribute>-->
+            </attributes>
+        </element>
+        <element id="TCallActivity" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TCallActivity">
+            <attributes>
+                <attribute id="calledElement" groupId="BASIC_PROP" class="java.lang.String" name="calledElement" condition="">
+                    <display-name>Called Activity</display-name>
+                    <description></description>
+                </attribute>
+            </attributes>
+        </element>
+        <!--        <element id="TSubProcess" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TSubProcess">
+            <attributes>
+                <attribute id="triggeredByEvent" groupId="BASIC_PROP" class="java.lang.Boolean" name="triggeredByEvent" >
+                    <display-name>Triggered By Event</display-name>
+                    <description> </description>
+                </attribute>
+            </attributes>
+        </element>-->
+        <element id="TAdHocSubProcess" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TAdHocSubProcess">
+            <attributes>
+                <attribute id="cancelRemainingInstances" groupId="BASIC_PROP" class="java.lang.Boolean" name="cancelRemainingInstances" >
+                    <display-name>Cancel Remaining Instances</display-name>
+                    <description> </description>
+                </attribute>
+            </attributes>
+        </element>
+
+        <element id="TComplexGateway" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TComplexGateway">
+            <attributes>
+                <attribute id="activationCondition" groupId="BASIC_PROP" class="org.netbeans.modeler.specification.model.document.ITextElement" name="activationCondition" condition="">
+                    <display-name>Activation Condition</display-name>
+                    <description>Determines which combination of incoming tokens will be synchronized for activation of the gateway.</description>
+                </attribute>
+            </attributes>
+        </element>
+        <element id="TEventBasedGateway" groupId="BASIC_PROP" class="org.netbeans.jbpmn.spec.TEventBasedGateway">
+            <attributes>
+                <attribute id="instantiate" groupId="BASIC_PROP" class="java.lang.Boolean" name="instantiate" condition="">
+                    <display-name>Instantiate</display-name>
+                    <description></description>
+                </attribute>
+            </attributes>
+        </element>
+
+
+
+
+
+
+
+
+    </elements>
+</element-config>
