@@ -248,7 +248,6 @@ public class ActivityWidget extends FlowNodeWidget {
                         List<TProperty> properties = activitySpec.getProperty();
                         List<Object[]> data_local = new LinkedList<Object[]>();
                         Iterator<TProperty> itr = properties.iterator();
-                        int i = 0;
                         while (itr.hasNext()) {
                             TProperty property = itr.next();
                             Object[] row = new Object[attributeEntity.getColumns().size()];
